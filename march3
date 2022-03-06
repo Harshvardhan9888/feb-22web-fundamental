@@ -1,0 +1,46 @@
+<div id="navbar">
+{
+<a href="#home">home</a>
+<a href="#news">news</a>
+<a href="#contact">contact</a>
+</div>
+}
+
+/*navbar links*/
+#navbar a{
+    floatl:left;
+    display:block;
+    color:#f2f2f2;
+    text-align:center;
+    padding14px;
+    text-decoration:none;
+}
+
+/*page <content/*
+.content{
+    padding:16px;
+}
+
+/*the sticky class is added to the navbar is js when it reaches is scrool position*/
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+/*add some top padding to the page conent 
+to prevent sudden quick movement (as the navigation bar gets a new position atb the top of the page )
+(position:fixed and top:0)/
+.sticky+content{
+    padding-top:60px;
+}
+//when the user scrools the page,excute my function window.onscrool=function()
+{my function()}'
+// get the navbar
+var navbar =
+document getelementby id("navbar)
+navbar. classlist.add("sticky")
+}else{
+    navbar.classlist.remove("sticky");
+ ;   
+}
+}

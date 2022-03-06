@@ -1,0 +1,26 @@
+#include <studio.h>
+
+int main()
+{
+    int number:
+
+    printf("please enter a number:")
+    \scanf(%d,and number);
+    if (number<10)
+}
+printf("no is less than 10!/n")
+{
+
+    printf("no is greater than 10!/n");
+}
+else
+{
+    printf("no is10!!/n")
+} 
+printf("no is greater than 10!/n")
+}
+return0;
+
+output
+}
+
